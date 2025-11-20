@@ -6,7 +6,7 @@ app.use(express.json());
 
 // Basic route
 app.get('/', (req, res) => {
-    res.send('Hello shubham jadav this project runing on instance 2 using node');
+    res.send('Hello shubham jadav this project runing on instance 2 using node 2');
 
 });
 
