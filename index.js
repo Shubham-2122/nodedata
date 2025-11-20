@@ -6,7 +6,8 @@ app.use(express.json());
 
 // Basic route
 app.get('/', (req, res) => {
-    res.send('Hello shubham jadav this project runing on instance 2');
+    res.send('Hello shubham jadav this project runing on instance 2 using node');
+
 });
 
 // Listen on port 3000
